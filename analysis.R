@@ -44,7 +44,7 @@ ggplot(character.deaths,aes(x=Allegiances))+geom_bar(aes(fill=Allegiances))+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+
   ggtitle("Death of Allegiance") + ylab("Deaths")
   
-#--------------Which character is more populat--------------------
+#--------------Which character is more popular--------------------
 attach(character.predictions)
 #make a dataset which contain name of character with more popularity
 
